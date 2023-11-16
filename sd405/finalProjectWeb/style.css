@@ -1,0 +1,115 @@
+.body{
+    background-image: url(images/speed-lights-background-concept_23-2148623058.jpg);
+max-width: 100%;
+/* border: 1px solid; */
+}
+.header{
+    display: flex;
+}
+.logoRight{
+    display: flex ;
+    gap: 10%;
+    margin-left: 75%;
+}
+/* .Languages{
+} */
+.buttonHeader{
+    width: 150%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 15px;
+}
+
+.theForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.form{
+    border-radius: 10px;
+    opacity: 0.6;
+    background-color: rgb(28, 20, 20);
+    max-width: 20%;
+    border: 1px solid;
+}
+.form1{
+    text-align: center;
+    border: 1px solid;
+}
+.logo{
+  color: red;
+  font-style:oblique;
+  font-weight:bolder;
+  font-size:30px;
+}
+input[type="text"],input[type="password"]{
+    font-size: small;
+    color: white;
+    width: 73%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(61, 59, 59);
+    border:  1px solid rgb(61, 59, 59);
+} 
+input[type=":checkbox"]{
+    color: rgb(61, 59, 59);
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 14%;
+    text-align: left;
+    color: white;
+}
+a{
+    text-decoration: none;
+  }
+.buttonForm{
+    width: 75%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 18px;
+}
+/* this is the header from the game */
+.search input{
+    max-width: 40%;
+    font-size: large;
+    border-radius: 15px;
+    fill: rgb(170, 173, 190);
+    height: 35px;
+    background-color: rgb(55, 57, 82);
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frontPageContent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcome{
+    font-size: xxx-large;
+}.online{
+    font-size: 100px;
+}
+.twitter{
+    text-align: center;
+    font-size:xx-large;
+}
+.divs{
+    margin-left: 3%;
+}

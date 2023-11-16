@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "Name":"Natnael lema",
+        "Email":"nlema@miu.edu",
+        "password":1234
+    },
+    {
+        "id":2,
+        "Name":"Menge lastName",
+        "Email":"mlema@miu.edu",
+        "password":4321
+    },
+    {
+        "id":1,
+        "Name":"Belay Tedros",
+        "Email":"slema@miu.edu",
+        "password":4567
+    }
+]
+

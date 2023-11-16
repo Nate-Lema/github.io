@@ -1,0 +1,11 @@
+body {
+  background-color: aqua;
+  /* background-image: url(images/speed-lights-background-concept_23-2148623058.jpg); */
+  font-size: x-large;
+  text-align:center;
+  font-family: helvetica;
+}
+canvas {
+  margin-top: 5%;
+  border: 4px solid rgb(6, 225, 79);
+}

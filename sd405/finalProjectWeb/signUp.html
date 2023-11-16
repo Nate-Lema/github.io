@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+      .listsA div{
+          padding: 10px;
+          color: white;
+      }
+      .listsA div  a{
+          color: white;
+          text-decoration: none;
+          
+      }
+      div .input {
+        width: 29%;
+      }
+      input.name{
+        width: 34%;
+      }
+      
+  </style>
+</head>
+<body style="background-image: url(images/speed-lights-background-concept_23-2148623058.jpg);">
+  <header>
+    <div>
+        <div>
+         <div class="header">
+             <div data-layout="container" class="logo">
+              <a style="color: red;" href="http://127.0.0.1:3000/index.html"><span class="logoText">Gamers Nexus</span></a>
+              </div>      
+          </div>
+     </div>
+</header>
+    <div class="theForm">
+        <form action="" class="form" id="signupForm">
+          <div class="form1">
+          <h2>Sign up</h2>
+            <div>
+                <div style="display:flex; margin-top: 20px; margin-bottom: 20px; gap: 10px;justify-content: center;">
+                  <input class="name" type="text" id="fname" placeholder="First Name" required />
+                  <input class="name" type="text" id="lname" placeholder="Last Name" required />
+                </div>
+                <input type="text" placeholder="Email Adress" required id="email"/>
+                <input style="margin-top: 20px;" type="password" placeholder="Password" required id="signupPassword"/>
+                <input style="margin-top: 20px; margin-bottom: 30px;" type="password" placeholder="Confirm Password" id="signupCpassword"/>
+            </div>
+            <button class="buttonForm" onclick="signup()" type="submit">Sign Up</button>
+            <div style= "color: white; margin-top: 5%;margin-left: 10%;">
+             <label style="float: left;">
+              
+              <input type="checkbox" id="rememberMe">
+              <label>Remember me</label>
+             </label>
+             <a style="margin-left: 15%; color: white;" href="to the help page">Need help?</a>
+            </div>
+            <div style="color: white; margin-top: 20%;margin-right: 23%;">
+            <label style="color: rgb(167, 163, 163);">Already have an account?</label><a style="font-weight: bolder;color: white;" href="http://127.0.0.1:3000/signIn.html"> Sign in.</a style="font-size: 50px;">
+            </div>
+            <div  style="margin-left: 10%;margin-right: 5%;color: white;margin-top: 2%;margin-bottom: 15%; text-align: left;">
+               <label>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="to learn more">Learn more.</a></label>
+            </div>
+          </div>
+        </form>
+        <script src="script.js"></script>
+      </div>
+      <div style="background-color:rgb(28, 20, 20);opacity:0.6;color:#737373;font-size: 13px; font-family: Helvetica, sans-serif;position:absolute;bottom: 0%;right: 0;left: 0;margin-top: 3.8%;">
+        <div style ="margin-left:5%;margin-right:5% ;">
+          <div style="display:grid; grid-template-columns:1fr 1fr 1fr 1fr; display:flex; justify-content:space-evenly; padding: 20px">
+            <div class="listsA">
+              <div><a href="#">FAQ</a></div>
+              <div><a href="#">Privacy</a></div>
+              <div><a href="#">Cookie Preferences</a></div>
+            </div>
+            <div class="listsA">
+              <div><a href="#">Help Center</a></div>
+              <div><a href="#">Cookie Preferences</a></div>
+            </div>
+            <div class="listsA">
+              <div><a href="#">Gamers Nexus Shop</a></div>
+              <div><a href="#">Corporate Information</a></div>
+            </div>
+            <div class="listsA">
+              <div><a href="#">Terms of Use</a></div>
+              <div><a href="#">Do Not Sell or Share My Personal Information</a></div>
+            </div>
+          </div>
+          <div class="listsA">
+            <div class="lang-selection-container" id="lang-switcher">    
+              <div data-uia="language-picker+container" class="ui-select-wrapper"><label for="lang-switcher-select"
+                class="ui-label"><span class="ui-label-text">Select Language</span></label>
+                <div class="select-arrow medium prefix globe"><select data-uia="language-picker" class="ui-select medium"
+                  id="lang-switcher-select" tabindex="0" placeholder="lang-switcher">
+                  <option selected="" lang="en" value="/login" data-language="en" data-country="US">English
+                  </option>
+                  <option lang="es" value="/us-es/login" data-language="es" data-country="US">Español</option>
+                </select>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    </html>
+    
+      
+        
+    
