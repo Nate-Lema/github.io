@@ -44,7 +44,10 @@ export function findTotalPointsByJersey(jerseyNumber:number):number{
   }
   return sumPlayerPoints;
 }
-
-
+//  it("tests findTotalScores", function () {
+//         const jerseyPoints = [{jersey: 8, total: 13}, {jersey: 12, total: 30}, {jersey: 6, total: 16}];
+//         assert.deepEqual(findTotalScores(teamStats), jerseyPoints);
+//   });
+//
 
 
